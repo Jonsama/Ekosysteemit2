@@ -18,6 +18,15 @@ def FtoC():
     vastaus = syote / 1.8 + 32
     print("Fahrenheitit celciuksina: ",round(vastaus,2))
 
+def DtoE():
+    syote=float(input("Anna muutettava dollari määrä: "))
+    vastaus = syote * 0.79
+    print("Dollarit euroina: ",round(vastaus,2))
+
+def CtoF():
+    syote=float(input("Anna muutettava Celsius määrä: "))
+    vastaus = syote * 1.8 + 32
+    print("Celsiukset Fahrenheitteina: ",round(vastaus,2))
 
 while(True):
     print(" ")
